@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Super Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vamos Contar</h1>
     </header>
     <section>
         <div>
-            Testando...
+            <p></p>Inicio:<input type="number" name="txtini" id="txtini"></p>
+            <p>Fim:<input type="number" name="txtfim" id="txtfim"></p>
+            <p>Passo:<input type="number" name="txtpas" id="txtpas"></p>
+            <input type="button" value="Contar" onclick="Contar()">
         </div>
-        <div>
-
+        <div id="res">
+            Preparando a contagem...
         </div>
     </section>
     <footer>
